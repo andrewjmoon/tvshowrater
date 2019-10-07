@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+html {
+  background-color: lightcyan
+}
+.Link {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  text-align: center;
+  margin: 3px;
+  min-width: 30px;
+  padding: 5px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  list-style-type: none;
+}
+.pagination li:hover {
+  background: #f1f1f1;
+}
+
+.pagination .active {
+  background: #b6d2fc;
+  pointer-events: none;
+}
